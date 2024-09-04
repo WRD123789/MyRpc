@@ -1,0 +1,142 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "example",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-example-b6fca4a6d0a37c6ae6b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "example"
+				},
+				{
+					"build" : "example/callee",
+					"jsonFile" : "directory-example.callee-1eaa0cd6ad8e395f31c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "example/callee",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "example/caller",
+					"jsonFile" : "directory-example.caller-f9d6ea7088e14e8f00d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "example/caller",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "myrpc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "consumer::@c2a3416f73e845390d82",
+					"jsonFile" : "target-consumer-7648edc716fac88cadb1.json",
+					"name" : "consumer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "myrpc::@145eef247bfb46b6828c",
+					"jsonFile" : "target-myrpc-202db095dbe69f7154b6.json",
+					"name" : "myrpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "provider::@493cd8b262c97a98b12b",
+					"jsonFile" : "target-provider-cb46e0a6172ab7959f50.json",
+					"name" : "provider",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/parallels/Documents/Projects/MYRPC/build",
+		"source" : "/home/parallels/Documents/Projects/MYRPC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
